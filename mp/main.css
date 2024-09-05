@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+/* #595E60 
+to right,rgb(63, 63, 255),rgb(0, 0, 0)
+to right,rgb(63, 63, 255) ,orange,black*/
+body{
+   
+    /* background:linear-gradient(to right,rgb(63, 63, 255) ,black); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* navgitation bar styling */
+nav{
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background: transparent;  
+    font-family: 'calibri';
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+
+.navdiv{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+/* up to here nav bar styling */
+.wel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 100;
+    padding: 20px;
+    padding-top: 60px;
+}
+/* frame designing */
+span{
+
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #fff;
+    text-shadow:5px 5px 20px white ;
+}
+
+
+.row{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 30px;
+    
+}
+
+.cl img{
+    margin: 10px;
+    width: 180px;
+    height: 180px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
+    margin-top: 30px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#cl1{
+    margin-left: 40px;
+}
+br{
+    height: 30px;
+}
+
